@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke" verbose="1" >
+    <test name="CheckEstimatedCostInComputeEnginePage"   >
+        <classes>
+            <class name="com.epam.automation.test.EstimatedCostInComputeEngineTest" />
+        </classes>
+    </test>
+    <test name="CheckEstimatedCostInTempMailPage"   >
+        <classes>
+            <class name="com.epam.automation.test.EstimatedCostInEmailTest" />
+        </classes>
+    </test>
+    <test name="CheckEstimatedParametersInComputeEnginePage"   >
+        <classes>
+            <class name="com.epam.automation.test.EstimatedParametersTest" />
+        </classes>
+    </test>
+</suite>
