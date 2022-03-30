@@ -30,10 +30,9 @@ ${project.build.directory}/
 .settings+
 .idea/
 
-.target/generated-test-sources/
+.target/generated-test-sources
 .target/maven-status
-.target/test-classes/
-.target/generated-sources/
-.target/classes/
-.target/surefire-reports/
-
+.target/test-classes
+.target/generated-sources
+.target/classes
+.target/surefire-reports
