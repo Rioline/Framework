@@ -118,3 +118,14 @@
 2022-03-30 18:11:03,511 TRACE util.TestLogger [main] operatingSystem is Free: Debian, CentOS, CoreOS, Ubuntu or BYOL (Bring Your Own License)
 2022-03-30 18:11:03,694 TRACE util.TestLogger [main] virtualMachinesClass is Regular
 2022-03-30 18:11:03,878 TRACE util.TestLogger [main] serie is N1
+2022-03-30 18:11:04,649 TRACE util.TestLogger [main] machineType is n1-standard-8 (vCPUs: 8, RAM: 30GB)
+2022-03-30 18:11:05,360 TRACE util.TestLogger [main] committedUsage is 1 Year
+2022-03-30 18:11:05,677 TRACE util.TestLogger [main] datacenterLocation is Frankfurt (europe-west3)
+2022-03-30 18:11:06,026 TRACE util.TestLogger [main] addGPUType is NVIDIA Tesla P100
+2022-03-30 18:11:06,325 TRACE util.TestLogger [main] numberOfGpu is 1
+2022-03-30 18:11:06,531 TRACE util.TestLogger [main] localSSD is 2x375
+2022-03-30 18:11:06,740 TRACE util.TestLogger [main] Added to estimate.
+2022-03-30 18:11:06,922 TRACE util.TestLogger [main] Compute Engine form filled
+2022-03-30 18:11:07,016 TRACE websocketx.WebSocket08FrameEncoder [AsyncHttpClient-1-10] Encoding WebSocket Frame opCode=8 length=26
+2022-03-30 18:11:14,753 TRACE util.TestLogger [main] Page https://cloud.google.com/ is opened
+2022-03-30 18:11:15,056 TRACE util.TestLogger [main] Search with search query Google Cloud Pricing Calculatorwas executed.
