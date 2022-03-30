@@ -91,3 +91,30 @@
 2022-03-30 18:10:32,603 TRACE util.TestLogger [main] Added to estimate.
 2022-03-30 18:10:32,762 TRACE util.TestLogger [main] Compute Engine form filled
 2022-03-30 18:10:32,855 TRACE websocketx.WebSocket08FrameEncoder [AsyncHttpClient-1-4] Encoding WebSocket Frame opCode=8 length=26
+2022-03-30 18:10:39,197 TRACE util.TestLogger [main] Page https://cloud.google.com/ is opened
+2022-03-30 18:10:39,533 TRACE util.TestLogger [main] Search with search query Google Cloud Pricing Calculatorwas executed.
+2022-03-30 18:10:47,293 TRACE util.TestLogger [main] Page Google Cloud Pricing Calculator is opened
+2022-03-30 18:10:47,503 TRACE util.TestLogger [main] Page with calculator is opened
+2022-03-30 18:10:47,503 TRACE util.TestLogger [main] numberOfInstance is 4
+2022-03-30 18:10:47,595 TRACE util.TestLogger [main] purposeOfUse is 
+2022-03-30 18:10:47,651 TRACE util.TestLogger [main] operatingSystem is Free: Debian, CentOS, CoreOS, Ubuntu or BYOL (Bring Your Own License)
+2022-03-30 18:10:47,827 TRACE util.TestLogger [main] virtualMachinesClass is Regular
+2022-03-30 18:10:48,542 TRACE util.TestLogger [main] serie is N1
+2022-03-30 18:10:48,794 TRACE util.TestLogger [main] machineType is n1-standard-8 (vCPUs: 8, RAM: 30GB)
+2022-03-30 18:10:49,017 TRACE util.TestLogger [main] committedUsage is 1 Year
+2022-03-30 18:10:49,270 TRACE util.TestLogger [main] datacenterLocation is Frankfurt (europe-west3)
+2022-03-30 18:10:49,489 TRACE util.TestLogger [main] addGPUType is NVIDIA Tesla P100
+2022-03-30 18:10:49,722 TRACE util.TestLogger [main] numberOfGpu is 1
+2022-03-30 18:10:49,935 TRACE util.TestLogger [main] localSSD is 2x375
+2022-03-30 18:10:50,143 TRACE util.TestLogger [main] Added to estimate.
+2022-03-30 18:10:50,326 TRACE util.TestLogger [main] Compute Engine form filled
+2022-03-30 18:10:50,400 TRACE websocketx.WebSocket08FrameEncoder [AsyncHttpClient-1-7] Encoding WebSocket Frame opCode=8 length=26
+2022-03-30 18:10:57,048 TRACE util.TestLogger [main] Page https://cloud.google.com/ is opened
+2022-03-30 18:10:57,427 TRACE util.TestLogger [main] Search with search query Google Cloud Pricing Calculatorwas executed.
+2022-03-30 18:11:03,045 TRACE util.TestLogger [main] Page Google Cloud Pricing Calculator is opened
+2022-03-30 18:11:03,349 TRACE util.TestLogger [main] Page with calculator is opened
+2022-03-30 18:11:03,350 TRACE util.TestLogger [main] numberOfInstance is 4
+2022-03-30 18:11:03,458 TRACE util.TestLogger [main] purposeOfUse is 
+2022-03-30 18:11:03,511 TRACE util.TestLogger [main] operatingSystem is Free: Debian, CentOS, CoreOS, Ubuntu or BYOL (Bring Your Own License)
+2022-03-30 18:11:03,694 TRACE util.TestLogger [main] virtualMachinesClass is Regular
+2022-03-30 18:11:03,878 TRACE util.TestLogger [main] serie is N1

@@ -16,7 +16,6 @@ com\epam\automation\page\googlecloud\GoogleCloudFillComputeEngine.class
 com\epam\automation\helper\Waiter.class
 com\epam\automation\page\googlecloud\GoogleCloudCalculatorPage.class
 com\epam\automation\util\TestListener.class
-com\epam\automation\test\EstimatedCostInEmailTest.class
 com\epam\automation\page\AbstractPage.class
 com\epam\automation\page\googlecloud\GoogleCloudEstimatePage.class
 com\epam\automation\page\googlecloud\GoogleCloudSearchPage.class
