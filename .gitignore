@@ -1,9 +1,6 @@
 # Compiled class file
 *.class
 
-# Log file
-*.log
-
 # BlueJ files
 *.ctxt
 
@@ -29,10 +26,3 @@ ${project.build.directory}/
 .project
 .settings+
 .idea/
-
-.target/generated-test-sources
-.target/maven-status
-.target/test-classes
-.target/generated-sources
-.target/classes
-.target/surefire-reports
