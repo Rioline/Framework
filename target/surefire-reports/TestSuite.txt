@@ -1,19 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 158.271 s <<< FAILURE! - in TestSuite
-calculationInEstimateAndEmail(com.epam.automation.test.EstimatedCostInEmailTest)  Time elapsed: 53.452 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text ('Estimated Monthly Cost:') to be present in element Proxy element for: DefaultElementLocator 'By.xpath: //h2[contains(text(), 'Estimated Monthly Cost:')]' (tried for 20 second(s) with 500 milliseconds interval)
-	at com.epam.automation.test.EstimatedCostInEmailTest.calculationInEstimateAndEmail(EstimatedCostInEmailTest.java:28)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(text(), 'Estimated Monthly Cost:')]"}
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 121.305 s <<< FAILURE! - in TestSuite
+calculationInEstimateAndEmail(com.epam.automation.test.EstimatedCostInEmailTest)  Time elapsed: 13.751 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='md-select-menu-container cpc-region-select md-active md-clickable']//md-option//div[contains(text(),'Frankfurt (europe-west3)')]"}
   (Session info: chrome=99.0.4844.84)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'EPLTVILW0107', ip: '10.22.7.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+System info: host: 'EPLTVILW0107', ip: '10.22.7.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8f0f20632e9d9de852652c398e553427, findElement {using=xpath, value=//h2[contains(text(), 'Estimated Monthly Cost:')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\DMITRY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58244}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58244/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8f0f20632e9d9de852652c398e553427
-	at com.epam.automation.test.EstimatedCostInEmailTest.calculationInEstimateAndEmail(EstimatedCostInEmailTest.java:28)
+Command: [afd674cba44f30e9cf8afaf85a075779, findChildElement {id=61cc9262-48e9-4346-a863-f6c98136ef9c, using=xpath, value=//div[@class='md-select-menu-container cpc-region-select md-active md-clickable']//md-option//div[contains(text(),'Frankfurt (europe-west3)')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\DMITRY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60646/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: afd674cba44f30e9cf8afaf85a075779
+	at com.epam.automation.test.EstimatedCostInEmailTest.calculationInEstimateAndEmail(EstimatedCostInEmailTest.java:22)
 
