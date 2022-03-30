@@ -24,13 +24,16 @@
 hs_err_pid*
 
 ${project.build.directory}/
-target/
+
 .classpath
 .project
 .settings+
 .idea/
+
 .generated-test-sources/
+.maven-status
 .test-classes/
 .generated-sources/
 .classes/
+.surefire-reports/
 
