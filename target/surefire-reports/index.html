@@ -169,41 +169,19 @@
                   <a name="calculationInEstimateAndEmail">
                   </a> <!-- calculationInEstimateAndEmail -->
                   <span class="method-name">calculationInEstimateAndEmail</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text (&apos;Estimated Monthly Cost:&apos;) to be present in element Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(), &apos;Estimated Monthly Cost:&apos;)]&apos; (tried for 20 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at com.epam.automation.helper.Waiter.waitUntilTextToBe(Waiter.java:59)
-	at com.epam.automation.page.tempmail.TempMailInboxPage.receiveEstimateCostFromEmail(TempMailInboxPage.java:40)
-	at com.epam.automation.test.EstimatedCostInEmailTest.calculationInEstimateAndEmail(EstimatedCostInEmailTest.java:28)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h2[contains(text(), &apos;Estimated Monthly Cost:&apos;)]&quot;}
-  (Session info: chrome=99.0.4844.84)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.automation.helper.Waiter$$Lambda$469/180949634@7f79edee (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
 System info: host: &apos;EPLTVILW0107&apos;, ip: &apos;10.22.7.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4a9338c229759937f68b7e21669818ee, findElement {using=xpath, value=//h2[contains(text(), &apos;Estimated Monthly Cost:&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\DMITRY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65248/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4a9338c229759937f68b7e21669818ee
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy28.getText(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions$12.apply(ExpectedConditions.java:346)
-	at org.openqa.selenium.support.ui.ExpectedConditions$12.apply(ExpectedConditions.java:342)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 35 more
-... Removed 34 stack frames
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\DMITRY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64998}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64998/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c9cd4cf3073be60ad7f762f6923e7e8e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.epam.automation.helper.Waiter.waitUntilNewWindowHandleAppear(Waiter.java:49)
+	at com.epam.automation.page.tempmail.TempMailHomePage.openPage(TempMailHomePage.java:22)
+	at com.epam.automation.test.EstimatedCostInEmailTest.calculationInEstimateAndEmail(EstimatedCostInEmailTest.java:24)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (Check calculation in Estimate and Mail.)                  </em>
@@ -211,23 +189,6 @@ Session ID: 4a9338c229759937f68b7e21669818ee
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Smoke-class-failed -->
-          <div class="suite-Smoke-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.epam.automation.test.EstimatedCostInComputeEngineTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="compareOfCalculationsByProgramAndManually">
-                  </a> <!-- compareOfCalculationsByProgramAndManually -->
-                  <span class="method-name">compareOfCalculationsByProgramAndManually</span>
-                  <em>
-(Check that the rental amount coincides with the manual calculation)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Smoke-class-passed -->
           <div class="suite-Smoke-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -277,6 +238,23 @@ Session ID: 4a9338c229759937f68b7e21669818ee
                   <span class="method-name">testVerifyVMClassField</span>
                   <em>
 (Check VmClass)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke-class-passed -->
+          <div class="suite-Smoke-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.automation.test.EstimatedCostInComputeEngineTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="compareOfCalculationsByProgramAndManually">
+                  </a> <!-- compareOfCalculationsByProgramAndManually -->
+                  <span class="method-name">compareOfCalculationsByProgramAndManually</span>
+                  <em>
+(Check that the rental amount coincides with the manual calculation)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -353,31 +331,31 @@ data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'calculationInEstimateAndEmail')
 data.setCell(0, 2, 'com.epam.automation.test.EstimatedCostInEmailTest')
-data.setCell(0, 3, 52555);
+data.setCell(0, 3, 35676);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testVerifyInstanceType')
-data.setCell(1, 2, 'com.epam.automation.test.EstimatedParametersTest')
-data.setCell(1, 3, 17027);
+data.setCell(1, 1, 'compareOfCalculationsByProgramAndManually')
+data.setCell(1, 2, 'com.epam.automation.test.EstimatedCostInComputeEngineTest')
+data.setCell(1, 3, 15633);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testVerifyRegion')
+data.setCell(2, 1, 'testVerifyVMClassField')
 data.setCell(2, 2, 'com.epam.automation.test.EstimatedParametersTest')
-data.setCell(2, 3, 16488);
+data.setCell(2, 3, 15246);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testVerifyCommitmentTerm')
+data.setCell(3, 1, 'testVerifyRegion')
 data.setCell(3, 2, 'com.epam.automation.test.EstimatedParametersTest')
-data.setCell(3, 3, 15864);
+data.setCell(3, 3, 14938);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testVerifyVMClassField')
+data.setCell(4, 1, 'testVerifyCommitmentTerm')
 data.setCell(4, 2, 'com.epam.automation.test.EstimatedParametersTest')
-data.setCell(4, 3, 15774);
+data.setCell(4, 3, 14795);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'compareOfCalculationsByProgramAndManually')
-data.setCell(5, 2, 'com.epam.automation.test.EstimatedCostInComputeEngineTest')
-data.setCell(5, 3, 15304);
+data.setCell(5, 1, 'testVerifyInstanceType')
+data.setCell(5, 2, 'com.epam.automation.test.EstimatedParametersTest')
+data.setCell(5, 3, 14575);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'testVerifyLocalSSD')
 data.setCell(6, 2, 'com.epam.automation.test.EstimatedParametersTest')
-data.setCell(6, 3, 14178);
+data.setCell(6, 3, 13816);
 window.suiteTableData['Smoke']= { tableData: data, tableDiv: 'times-div-Smoke'}
 return data;
 }
@@ -415,91 +393,91 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">compareOfCalculationsByProgramAndManually</span>
-                <span class="method-start">2878 ms</span>
+                <span class="method-start">2503 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">stopBrowser</span>
-                <span class="method-start">18184 ms</span>
+                <span class="method-start">18138 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.epam.automation.test.EstimatedCostInEmailTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">18948 ms</span>
+                <span class="method-start">19166 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">calculationInEstimateAndEmail</span>
-                <span class="method-start">20168 ms</span>
+                <span class="method-start">20489 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">stopBrowser</span>
-                <span class="method-start">72861 ms</span>
+                <span class="method-start">56412 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.epam.automation.test.EstimatedParametersTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">73624 ms</span>
+                <span class="method-start">57246 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testVerifyCommitmentTerm</span>
-                <span class="method-start">74863 ms</span>
+                <span class="method-start">58549 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">stopBrowser</span>
-                <span class="method-start">90728 ms</span>
+                <span class="method-start">73344 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">91614 ms</span>
+                <span class="method-start">74387 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testVerifyInstanceType</span>
-                <span class="method-start">92839 ms</span>
+                <span class="method-start">75561 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">stopBrowser</span>
-                <span class="method-start">109866 ms</span>
+                <span class="method-start">90136 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">110651 ms</span>
+                <span class="method-start">90908 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testVerifyLocalSSD</span>
-                <span class="method-start">111848 ms</span>
+                <span class="method-start">92139 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">stopBrowser</span>
-                <span class="method-start">126026 ms</span>
+                <span class="method-start">105955 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">127608 ms</span>
+                <span class="method-start">107122 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testVerifyRegion</span>
-                <span class="method-start">128771 ms</span>
+                <span class="method-start">108327 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">stopBrowser</span>
-                <span class="method-start">145259 ms</span>
+                <span class="method-start">123265 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">146140 ms</span>
+                <span class="method-start">124436 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testVerifyVMClassField</span>
-                <span class="method-start">147434 ms</span>
+                <span class="method-start">125684 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">stopBrowser</span>
-                <span class="method-start">163208 ms</span>
+                <span class="method-start">140930 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
