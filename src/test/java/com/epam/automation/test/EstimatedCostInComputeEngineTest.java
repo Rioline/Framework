@@ -11,13 +11,13 @@ public class EstimatedCostInComputeEngineTest extends CommonConditions{
     @Test(description = "Check that the rental amount coincides with the manual calculation")
     public void compareOfCalculationsByProgramAndManually() {
         Instance testInstance = InstanceCreator.withCredentialsFromProperty();
-        String actual = new GoogleCloudHomePage(driver)
-                .openPage()
-                .searchPage()
-                .openCalculator()
-                .switchToFrameAndSelectCompute()
-                .fillFormWithData(testInstance)
-                .getTotalEstimatedCost();
+//        String actual = new GoogleCloudHomePage(driver)
+//                .openPage()
+//                .searchPage()
+//                .openCalculator()
+//                .switchToFrameAndSelectCompute()
+//                .fillFormWithData(testInstance)
+//                .getTotalEstimatedCost();
 //        String expected = "USD 4,026.13";
 //        Assert.assertEquals(actual,expected);
     }
