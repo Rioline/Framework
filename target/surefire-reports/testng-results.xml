@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke" duration-ms="101212" started-at="2022-03-30T18:10:16 EEST" finished-at="2022-03-30T18:11:57 EEST">
+    <groups>
+    </groups>
+    <test name="CheckEstimatedCostInComputeEnginePage" duration-ms="16948" started-at="2022-03-30T18:10:16 EEST" finished-at="2022-03-30T18:10:33 EEST">
+      <class name="com.epam.automation.test.EstimatedCostInComputeEngineTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.test.EstimatedCostInComputeEngineTest@3712b94]" name="setUp" is-config="true" duration-ms="2737" started-at="2022-03-30T18:10:16 EEST" finished-at="2022-03-30T18:10:19 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="compareOfCalculationsByProgramAndManually()[pri:0, instance:com.epam.automation.test.EstimatedCostInComputeEngineTest@3712b94]" name="compareOfCalculationsByProgramAndManually" duration-ms="13419" started-at="2022-03-30T18:10:19 EEST" description="Check that the rental amount coincides with the manual calculation" finished-at="2022-03-30T18:10:32 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareOfCalculationsByProgramAndManually -->
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.automation.test.EstimatedCostInComputeEngineTest@3712b94]" name="stopBrowser" is-config="true" duration-ms="774" started-at="2022-03-30T18:10:32 EEST" finished-at="2022-03-30T18:10:33 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- com.epam.automation.test.EstimatedCostInComputeEngineTest -->
+    </test> <!-- CheckEstimatedCostInComputeEnginePage -->
+    <test name="CheckEstimatedParametersInComputeEnginePage" duration-ms="84264" started-at="2022-03-30T18:10:33 EEST" finished-at="2022-03-30T18:11:57 EEST">
+      <class name="com.epam.automation.test.EstimatedParametersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="setUp" is-config="true" duration-ms="1174" started-at="2022-03-30T18:10:33 EEST" finished-at="2022-03-30T18:10:34 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testVerifyCommitmentTerm()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="testVerifyCommitmentTerm" duration-ms="15601" started-at="2022-03-30T18:10:34 EEST" description="Check Commitment Term" finished-at="2022-03-30T18:10:50 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyCommitmentTerm -->
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="stopBrowser" is-config="true" duration-ms="1214" started-at="2022-03-30T18:10:50 EEST" finished-at="2022-03-30T18:10:51 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="setUp" is-config="true" duration-ms="1214" started-at="2022-03-30T18:10:51 EEST" finished-at="2022-03-30T18:10:52 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testVerifyInstanceType()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="testVerifyInstanceType" duration-ms="14186" started-at="2022-03-30T18:10:52 EEST" description="Check Instance type" finished-at="2022-03-30T18:11:07 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyInstanceType -->
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="stopBrowser" is-config="true" duration-ms="1526" started-at="2022-03-30T18:11:07 EEST" finished-at="2022-03-30T18:11:08 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="setUp" is-config="true" duration-ms="1266" started-at="2022-03-30T18:11:08 EEST" finished-at="2022-03-30T18:11:09 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testVerifyLocalSSD()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="testVerifyLocalSSD" duration-ms="15262" started-at="2022-03-30T18:11:09 EEST" description="Check LocalSSD" finished-at="2022-03-30T18:11:25 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyLocalSSD -->
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="stopBrowser" is-config="true" duration-ms="775" started-at="2022-03-30T18:11:25 EEST" finished-at="2022-03-30T18:11:25 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="setUp" is-config="true" duration-ms="1182" started-at="2022-03-30T18:11:25 EEST" finished-at="2022-03-30T18:11:27 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testVerifyRegion()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="testVerifyRegion" duration-ms="13462" started-at="2022-03-30T18:11:27 EEST" description="Check Region" finished-at="2022-03-30T18:11:40 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyRegion -->
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="stopBrowser" is-config="true" duration-ms="783" started-at="2022-03-30T18:11:40 EEST" finished-at="2022-03-30T18:11:41 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="setUp" is-config="true" duration-ms="1208" started-at="2022-03-30T18:11:41 EEST" finished-at="2022-03-30T18:11:42 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testVerifyVMClassField()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="testVerifyVMClassField" duration-ms="13821" started-at="2022-03-30T18:11:42 EEST" description="Check VmClass" finished-at="2022-03-30T18:11:56 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyVMClassField -->
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="stopBrowser" is-config="true" duration-ms="1587" started-at="2022-03-30T18:11:56 EEST" finished-at="2022-03-30T18:11:57 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- com.epam.automation.test.EstimatedParametersTest -->
+    </test> <!-- CheckEstimatedParametersInComputeEnginePage -->
+  </suite> <!-- Smoke -->
+</testng-results>

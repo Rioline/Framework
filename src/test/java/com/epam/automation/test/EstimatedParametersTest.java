@@ -48,7 +48,8 @@ public class EstimatedParametersTest extends CommonConditions{
                 .switchToFrameAndSelectCompute()
                 .fillFormWithData(testInstance)
                 .getRegion();
-        String expected = "Frankfurt";
+//        String expected = "Frankfurt";
+        String expected = "Berlin";
         Assert.assertTrue(actual.toLowerCase(Locale.ROOT).contains(expected.toLowerCase(Locale.ROOT)));
     }
 
