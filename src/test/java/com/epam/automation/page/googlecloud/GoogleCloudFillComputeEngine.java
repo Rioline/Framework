@@ -129,11 +129,6 @@ public class GoogleCloudFillComputeEngine extends AbstractPage {
         JSExecutor.clickElement(addToEstimateButton);
     }
 
-    public void pushEmailEstimate() {
-        TestLogger.writeMessage("Clicked button to select send email.");
-        emailEstimate.click();
-    }
-
     public GoogleCloudEstimatePage fillFormWithData(Instance instance) {
         fillNumberOfInstances(instance.getNumberOfInstance());
         fillInstancesFor(instance.getInstanceFor());
@@ -148,7 +143,6 @@ public class GoogleCloudFillComputeEngine extends AbstractPage {
         fillNumberOfGPUs(instance.getNumberOfGpu());
         fillLocalSSDs(instance.getLocalSSD());
         addTOEstimate();
-        pushEmailEstimate();
         TestLogger.writeMessage("Compute Engine form filled");
         return new GoogleCloudEstimatePage(driver);
     }
