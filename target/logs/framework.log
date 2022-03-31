@@ -1,183 +1,183 @@
-2022-03-30 18:27:57,573 DEBUG logging.InternalLoggerFactory [main] Using Log4J2 as the default logging framework
-2022-03-30 18:27:57,573 DEBUG util.ResourceLeakDetector [main] -Dio.netty.leakDetection.level: simple
-2022-03-30 18:27:57,573 DEBUG util.ResourceLeakDetector [main] -Dio.netty.leakDetection.targetRecords: 4
-2022-03-30 18:27:57,573 DEBUG util.ResourceLeakDetectorFactory [main] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@60957c0f
-2022-03-30 18:27:57,589 DEBUG internal.PlatformDependent0 [main] -Dio.netty.noUnsafe: false
-2022-03-30 18:27:57,589 DEBUG internal.PlatformDependent0 [main] Java version: 8
-2022-03-30 18:27:57,600 DEBUG internal.PlatformDependent0 [main] sun.misc.Unsafe.theUnsafe: available
-2022-03-30 18:27:57,600 DEBUG internal.PlatformDependent0 [main] sun.misc.Unsafe.copyMemory: available
-2022-03-30 18:27:57,600 DEBUG internal.PlatformDependent0 [main] java.nio.Buffer.address: available
-2022-03-30 18:27:57,600 DEBUG internal.PlatformDependent0 [main] direct buffer constructor: available
-2022-03-30 18:27:57,600 DEBUG internal.PlatformDependent0 [main] java.nio.Bits.unaligned: available, true
-2022-03-30 18:27:57,600 DEBUG internal.PlatformDependent0 [main] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
-2022-03-30 18:27:57,600 DEBUG internal.PlatformDependent0 [main] java.nio.DirectByteBuffer.<init>(long, int): available
-2022-03-30 18:27:57,600 DEBUG internal.PlatformDependent [main] sun.misc.Unsafe: available
-2022-03-30 18:27:57,600 DEBUG internal.PlatformDependent [main] -Dio.netty.tmpdir: C:\Users\DMITRY~1\AppData\Local\Temp (java.io.tmpdir)
-2022-03-30 18:27:57,600 DEBUG internal.PlatformDependent [main] -Dio.netty.bitMode: 64 (sun.arch.data.model)
-2022-03-30 18:27:57,600 DEBUG internal.PlatformDependent [main] Platform: Windows
-2022-03-30 18:27:57,600 DEBUG internal.PlatformDependent [main] -Dio.netty.maxDirectMemory: 7538737152 bytes
-2022-03-30 18:27:57,600 DEBUG internal.PlatformDependent [main] -Dio.netty.uninitializedArrayAllocationThreshold: -1
-2022-03-30 18:27:57,600 DEBUG internal.CleanerJava6 [main] java.nio.ByteBuffer.cleaner(): available
-2022-03-30 18:27:57,600 DEBUG internal.PlatformDependent [main] -Dio.netty.noPreferDirect: false
-2022-03-30 18:27:57,600 DEBUG internal.PlatformDependent [main] org.jctools-core.MpscChunkedArrayQueue: available
-2022-03-30 18:27:57,616 DEBUG internal.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-2022-03-30 18:27:57,616 DEBUG internal.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-2022-03-30 18:27:57,647 DEBUG ssl.JdkSslContext [main] Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
-2022-03-30 18:27:57,647 DEBUG ssl.JdkSslContext [main] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
-2022-03-30 18:27:57,663 DEBUG channel.MultithreadEventLoopGroup [main] -Dio.netty.eventLoopThreads: 16
-2022-03-30 18:27:57,673 DEBUG nio.NioEventLoop [main] -Dio.netty.noKeySetOptimization: false
-2022-03-30 18:27:57,673 DEBUG nio.NioEventLoop [main] -Dio.netty.selectorAutoRebuildThreshold: 512
-2022-03-30 18:27:57,673 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4e28bdd1
-2022-03-30 18:27:57,673 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@f0e995e
-2022-03-30 18:27:57,689 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4c37b5b
-2022-03-30 18:27:57,689 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@73db4768
-2022-03-30 18:27:57,689 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@71b3bc45
-2022-03-30 18:27:57,689 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@a8c1f44
-2022-03-30 18:27:57,689 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@150ab4ed
-2022-03-30 18:27:57,689 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3c435123
-2022-03-30 18:27:57,689 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@50fe837a
-2022-03-30 18:27:57,689 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3a62c01e
-2022-03-30 18:27:57,689 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7a8fa663
-2022-03-30 18:27:57,689 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5ce33a58
-2022-03-30 18:27:57,689 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@78a287ed
-2022-03-30 18:27:57,689 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@546ccad7
-2022-03-30 18:27:57,689 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5357c287
-2022-03-30 18:27:57,689 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1623134f
-2022-03-30 18:27:57,705 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.numHeapArenas: 16
-2022-03-30 18:27:57,705 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.numDirectArenas: 16
-2022-03-30 18:27:57,705 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.pageSize: 8192
-2022-03-30 18:27:57,705 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.maxOrder: 11
-2022-03-30 18:27:57,705 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.chunkSize: 16777216
-2022-03-30 18:27:57,705 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.smallCacheSize: 256
-2022-03-30 18:27:57,705 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.normalCacheSize: 64
-2022-03-30 18:27:57,705 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-2022-03-30 18:27:57,705 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimInterval: 8192
-2022-03-30 18:27:57,705 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-2022-03-30 18:27:57,705 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.useCacheForAllThreads: true
-2022-03-30 18:27:57,705 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-2022-03-30 18:27:57,722 DEBUG buffer.ByteBufUtil [main] -Dio.netty.allocator.type: pooled
-2022-03-30 18:27:57,722 DEBUG buffer.ByteBufUtil [main] -Dio.netty.threadLocalDirectBufferSize: 0
-2022-03-30 18:27:57,722 DEBUG buffer.ByteBufUtil [main] -Dio.netty.maxThreadLocalCharBufferSize: 16384
-2022-03-30 18:27:58,423 DEBUG channel.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.processId: 3048 (auto-detected)
-2022-03-30 18:27:58,423 DEBUG util.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
-2022-03-30 18:27:58,423 DEBUG util.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
-2022-03-30 18:27:58,508 DEBUG util.NetUtilInitializations [Forwarding newSession on session null to remote] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-2022-03-30 18:27:58,508 DEBUG util.NetUtil [Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-2022-03-30 18:27:58,577 DEBUG channel.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.machineId: a4:6b:b6:ff:fe:eb:0f:41 (auto-detected)
-2022-03-30 18:27:58,609 DEBUG buffer.AbstractByteBuf [AsyncHttpClient-1-2] -Dio.netty.buffer.checkAccessible: true
-2022-03-30 18:27:58,609 DEBUG buffer.AbstractByteBuf [AsyncHttpClient-1-2] -Dio.netty.buffer.checkBounds: true
-2022-03-30 18:27:58,609 DEBUG util.ResourceLeakDetectorFactory [AsyncHttpClient-1-2] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@50d677b2
-2022-03-30 18:27:58,625 DEBUG util.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.maxCapacityPerThread: 4096
-2022-03-30 18:27:58,625 DEBUG util.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.ratio: 8
-2022-03-30 18:27:58,625 DEBUG util.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.chunkSize: 32
-2022-03-30 18:27:58,625 DEBUG util.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.blocking: false
-2022-03-30 18:27:59,161 DEBUG compression.Brotli [AsyncHttpClient-1-2] brotli4j not in the classpath; Brotli support will be unavailable.
-2022-03-30 18:27:59,219 DEBUG internal.ThreadLocalRandom [main] -Dio.netty.initialSeedUniquifier: 0xf4132e0132c6780b
-2022-03-30 18:28:03,555 TRACE util.TestLogger [main] Page https://cloud.google.com/ is opened
-2022-03-30 18:28:03,796 TRACE util.TestLogger [main] Search with search query Google Cloud Pricing Calculatorwas executed.
-2022-03-30 18:28:09,364 TRACE util.TestLogger [main] Page Google Cloud Pricing Calculator is opened
-2022-03-30 18:28:09,563 TRACE util.TestLogger [main] Page with calculator is opened
-2022-03-30 18:28:09,566 TRACE util.TestLogger [main] numberOfInstance is 4
-2022-03-30 18:28:09,626 TRACE util.TestLogger [main] purposeOfUse is 
-2022-03-30 18:28:09,693 TRACE util.TestLogger [main] operatingSystem is Free: Debian, CentOS, CoreOS, Ubuntu or BYOL (Bring Your Own License)
-2022-03-30 18:28:09,887 TRACE util.TestLogger [main] virtualMachinesClass is Regular
-2022-03-30 18:28:10,031 TRACE util.TestLogger [main] serie is N1
-2022-03-30 18:28:10,205 TRACE util.TestLogger [main] machineType is n1-standard-8 (vCPUs: 8, RAM: 30GB)
-2022-03-30 18:28:10,845 TRACE util.TestLogger [main] committedUsage is 1 Year
-2022-03-30 18:28:11,515 TRACE util.TestLogger [main] datacenterLocation is Frankfurt (europe-west3)
-2022-03-30 18:28:11,747 TRACE util.TestLogger [main] addGPUType is NVIDIA Tesla P100
-2022-03-30 18:28:12,435 TRACE util.TestLogger [main] numberOfGpu is 1
-2022-03-30 18:28:13,099 TRACE util.TestLogger [main] localSSD is 2x375
-2022-03-30 18:28:13,239 TRACE util.TestLogger [main] Added to estimate.
-2022-03-30 18:28:13,367 TRACE util.TestLogger [main] Compute Engine form filled
-2022-03-30 18:28:13,443 TRACE websocketx.WebSocket08FrameEncoder [AsyncHttpClient-1-4] Encoding WebSocket Frame opCode=8 length=26
-2022-03-30 18:28:19,428 TRACE util.TestLogger [main] Page https://cloud.google.com/ is opened
-2022-03-30 18:28:19,717 TRACE util.TestLogger [main] Search with search query Google Cloud Pricing Calculatorwas executed.
-2022-03-30 18:28:26,140 TRACE util.TestLogger [main] Page Google Cloud Pricing Calculator is opened
-2022-03-30 18:28:26,413 TRACE util.TestLogger [main] Page with calculator is opened
-2022-03-30 18:28:26,414 TRACE util.TestLogger [main] numberOfInstance is 4
-2022-03-30 18:28:26,574 TRACE util.TestLogger [main] purposeOfUse is 
-2022-03-30 18:28:26,631 TRACE util.TestLogger [main] operatingSystem is Free: Debian, CentOS, CoreOS, Ubuntu or BYOL (Bring Your Own License)
-2022-03-30 18:28:27,333 TRACE util.TestLogger [main] virtualMachinesClass is Regular
-2022-03-30 18:28:27,999 TRACE util.TestLogger [main] serie is N1
-2022-03-30 18:28:28,773 TRACE util.TestLogger [main] machineType is n1-standard-8 (vCPUs: 8, RAM: 30GB)
-2022-03-30 18:28:28,970 TRACE util.TestLogger [main] committedUsage is 1 Year
-2022-03-30 18:28:29,156 TRACE util.TestLogger [main] datacenterLocation is Frankfurt (europe-west3)
-2022-03-30 18:28:29,381 TRACE util.TestLogger [main] addGPUType is NVIDIA Tesla P100
-2022-03-30 18:28:30,119 TRACE util.TestLogger [main] numberOfGpu is 1
-2022-03-30 18:28:30,781 TRACE util.TestLogger [main] localSSD is 2x375
-2022-03-30 18:28:31,436 TRACE util.TestLogger [main] Added to estimate.
-2022-03-30 18:28:31,598 TRACE util.TestLogger [main] Compute Engine form filled
-2022-03-30 18:28:31,680 TRACE websocketx.WebSocket08FrameEncoder [AsyncHttpClient-1-7] Encoding WebSocket Frame opCode=8 length=26
-2022-03-30 18:28:36,821 TRACE util.TestLogger [main] Page https://cloud.google.com/ is opened
-2022-03-30 18:28:37,131 TRACE util.TestLogger [main] Search with search query Google Cloud Pricing Calculatorwas executed.
-2022-03-30 18:28:43,511 TRACE util.TestLogger [main] Page Google Cloud Pricing Calculator is opened
-2022-03-30 18:28:43,753 TRACE util.TestLogger [main] Page with calculator is opened
-2022-03-30 18:28:43,754 TRACE util.TestLogger [main] numberOfInstance is 4
-2022-03-30 18:28:43,943 TRACE util.TestLogger [main] purposeOfUse is 
-2022-03-30 18:28:44,088 TRACE util.TestLogger [main] operatingSystem is Free: Debian, CentOS, CoreOS, Ubuntu or BYOL (Bring Your Own License)
-2022-03-30 18:28:44,333 TRACE util.TestLogger [main] virtualMachinesClass is Regular
-2022-03-30 18:28:45,037 TRACE util.TestLogger [main] serie is N1
-2022-03-30 18:28:45,266 TRACE util.TestLogger [main] machineType is n1-standard-8 (vCPUs: 8, RAM: 30GB)
-2022-03-30 18:28:45,469 TRACE util.TestLogger [main] committedUsage is 1 Year
-2022-03-30 18:28:45,674 TRACE util.TestLogger [main] datacenterLocation is Frankfurt (europe-west3)
-2022-03-30 18:28:45,930 TRACE util.TestLogger [main] addGPUType is NVIDIA Tesla P100
-2022-03-30 18:28:46,183 TRACE util.TestLogger [main] numberOfGpu is 1
-2022-03-30 18:28:46,345 TRACE util.TestLogger [main] localSSD is 2x375
-2022-03-30 18:28:47,036 TRACE util.TestLogger [main] Added to estimate.
-2022-03-30 18:28:47,223 TRACE util.TestLogger [main] Compute Engine form filled
-2022-03-30 18:28:47,299 TRACE websocketx.WebSocket08FrameEncoder [AsyncHttpClient-1-10] Encoding WebSocket Frame opCode=8 length=26
-2022-03-30 18:28:53,650 TRACE util.TestLogger [main] Page https://cloud.google.com/ is opened
-2022-03-30 18:28:54,006 TRACE util.TestLogger [main] Search with search query Google Cloud Pricing Calculatorwas executed.
-2022-03-30 18:29:00,297 TRACE util.TestLogger [main] Page Google Cloud Pricing Calculator is opened
-2022-03-30 18:29:00,528 TRACE util.TestLogger [main] Page with calculator is opened
-2022-03-30 18:29:00,529 TRACE util.TestLogger [main] numberOfInstance is 4
-2022-03-30 18:29:00,648 TRACE util.TestLogger [main] purposeOfUse is 
-2022-03-30 18:29:00,728 TRACE util.TestLogger [main] operatingSystem is Free: Debian, CentOS, CoreOS, Ubuntu or BYOL (Bring Your Own License)
-2022-03-30 18:29:01,383 TRACE util.TestLogger [main] virtualMachinesClass is Regular
-2022-03-30 18:29:01,538 TRACE util.TestLogger [main] serie is N1
-2022-03-30 18:29:01,778 TRACE util.TestLogger [main] machineType is n1-standard-8 (vCPUs: 8, RAM: 30GB)
-2022-03-30 18:29:01,967 TRACE util.TestLogger [main] committedUsage is 1 Year
-2022-03-30 18:29:02,185 TRACE util.TestLogger [main] datacenterLocation is Frankfurt (europe-west3)
-2022-03-30 18:29:02,406 TRACE util.TestLogger [main] addGPUType is NVIDIA Tesla P100
-2022-03-30 18:29:02,617 TRACE util.TestLogger [main] numberOfGpu is 1
-2022-03-30 18:29:03,277 TRACE util.TestLogger [main] localSSD is 2x375
-2022-03-30 18:29:03,929 TRACE util.TestLogger [main] Added to estimate.
-2022-03-30 18:29:04,082 TRACE util.TestLogger [main] Compute Engine form filled
-2022-03-30 18:29:04,170 TRACE websocketx.WebSocket08FrameEncoder [AsyncHttpClient-1-13] Encoding WebSocket Frame opCode=8 length=26
-2022-03-30 18:29:09,887 TRACE util.TestLogger [main] Page https://cloud.google.com/ is opened
-2022-03-30 18:29:10,151 TRACE util.TestLogger [main] Search with search query Google Cloud Pricing Calculatorwas executed.
-2022-03-30 18:29:18,498 TRACE util.TestLogger [main] Page Google Cloud Pricing Calculator is opened
-2022-03-30 18:29:18,690 TRACE util.TestLogger [main] Page with calculator is opened
-2022-03-30 18:29:18,690 TRACE util.TestLogger [main] numberOfInstance is 4
-2022-03-30 18:29:18,762 TRACE util.TestLogger [main] purposeOfUse is 
-2022-03-30 18:29:18,839 TRACE util.TestLogger [main] operatingSystem is Free: Debian, CentOS, CoreOS, Ubuntu or BYOL (Bring Your Own License)
-2022-03-30 18:29:19,032 TRACE util.TestLogger [main] virtualMachinesClass is Regular
-2022-03-30 18:29:19,706 TRACE util.TestLogger [main] serie is N1
-2022-03-30 18:29:20,368 TRACE util.TestLogger [main] machineType is n1-standard-8 (vCPUs: 8, RAM: 30GB)
-2022-03-30 18:29:20,996 TRACE util.TestLogger [main] committedUsage is 1 Year
-2022-03-30 18:29:21,635 TRACE util.TestLogger [main] datacenterLocation is Frankfurt (europe-west3)
-2022-03-30 18:29:21,794 TRACE util.TestLogger [main] addGPUType is NVIDIA Tesla P100
-2022-03-30 18:29:21,976 TRACE util.TestLogger [main] numberOfGpu is 1
-2022-03-30 18:29:22,605 TRACE util.TestLogger [main] localSSD is 2x375
-2022-03-30 18:29:22,732 TRACE util.TestLogger [main] Added to estimate.
-2022-03-30 18:29:22,847 TRACE util.TestLogger [main] Compute Engine form filled
-2022-03-30 18:29:22,901 TRACE websocketx.WebSocket08FrameEncoder [AsyncHttpClient-1-16] Encoding WebSocket Frame opCode=8 length=26
-2022-03-30 18:29:29,088 TRACE util.TestLogger [main] Page https://cloud.google.com/ is opened
-2022-03-30 18:29:29,317 TRACE util.TestLogger [main] Search with search query Google Cloud Pricing Calculatorwas executed.
-2022-03-30 18:29:35,557 TRACE util.TestLogger [main] Page Google Cloud Pricing Calculator is opened
-2022-03-30 18:29:35,755 TRACE util.TestLogger [main] Page with calculator is opened
-2022-03-30 18:29:35,756 TRACE util.TestLogger [main] numberOfInstance is 4
-2022-03-30 18:29:35,832 TRACE util.TestLogger [main] purposeOfUse is 
-2022-03-30 18:29:35,900 TRACE util.TestLogger [main] operatingSystem is Free: Debian, CentOS, CoreOS, Ubuntu or BYOL (Bring Your Own License)
-2022-03-30 18:29:36,050 TRACE util.TestLogger [main] virtualMachinesClass is Regular
-2022-03-30 18:29:36,696 TRACE util.TestLogger [main] serie is N1
-2022-03-30 18:29:36,883 TRACE util.TestLogger [main] machineType is n1-standard-8 (vCPUs: 8, RAM: 30GB)
-2022-03-30 18:29:37,043 TRACE util.TestLogger [main] committedUsage is 1 Year
-2022-03-30 18:29:37,701 TRACE util.TestLogger [main] datacenterLocation is Frankfurt (europe-west3)
-2022-03-30 18:29:37,900 TRACE util.TestLogger [main] addGPUType is NVIDIA Tesla P100
-2022-03-30 18:29:38,609 TRACE util.TestLogger [main] numberOfGpu is 1
-2022-03-30 18:29:39,272 TRACE util.TestLogger [main] localSSD is 2x375
-2022-03-30 18:29:39,414 TRACE util.TestLogger [main] Added to estimate.
-2022-03-30 18:29:39,556 TRACE util.TestLogger [main] Compute Engine form filled
-2022-03-30 18:29:39,628 TRACE websocketx.WebSocket08FrameEncoder [AsyncHttpClient-1-3] Encoding WebSocket Frame opCode=8 length=26
+2022-03-31 10:58:31,729 DEBUG logging.InternalLoggerFactory [main] Using Log4J2 as the default logging framework
+2022-03-31 10:58:31,745 DEBUG util.ResourceLeakDetector [main] -Dio.netty.leakDetection.level: simple
+2022-03-31 10:58:31,745 DEBUG util.ResourceLeakDetector [main] -Dio.netty.leakDetection.targetRecords: 4
+2022-03-31 10:58:31,745 DEBUG util.ResourceLeakDetectorFactory [main] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@21d8bcbe
+2022-03-31 10:58:31,761 DEBUG internal.PlatformDependent0 [main] -Dio.netty.noUnsafe: false
+2022-03-31 10:58:31,761 DEBUG internal.PlatformDependent0 [main] Java version: 8
+2022-03-31 10:58:31,761 DEBUG internal.PlatformDependent0 [main] sun.misc.Unsafe.theUnsafe: available
+2022-03-31 10:58:31,761 DEBUG internal.PlatformDependent0 [main] sun.misc.Unsafe.copyMemory: available
+2022-03-31 10:58:31,761 DEBUG internal.PlatformDependent0 [main] java.nio.Buffer.address: available
+2022-03-31 10:58:31,761 DEBUG internal.PlatformDependent0 [main] direct buffer constructor: available
+2022-03-31 10:58:31,761 DEBUG internal.PlatformDependent0 [main] java.nio.Bits.unaligned: available, true
+2022-03-31 10:58:31,761 DEBUG internal.PlatformDependent0 [main] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-03-31 10:58:31,761 DEBUG internal.PlatformDependent0 [main] java.nio.DirectByteBuffer.<init>(long, int): available
+2022-03-31 10:58:31,761 DEBUG internal.PlatformDependent [main] sun.misc.Unsafe: available
+2022-03-31 10:58:31,761 DEBUG internal.PlatformDependent [main] -Dio.netty.tmpdir: C:\Users\DMITRY~1\AppData\Local\Temp (java.io.tmpdir)
+2022-03-31 10:58:31,761 DEBUG internal.PlatformDependent [main] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-03-31 10:58:31,761 DEBUG internal.PlatformDependent [main] Platform: Windows
+2022-03-31 10:58:31,761 DEBUG internal.PlatformDependent [main] -Dio.netty.maxDirectMemory: 7538737152 bytes
+2022-03-31 10:58:31,761 DEBUG internal.PlatformDependent [main] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-03-31 10:58:31,761 DEBUG internal.CleanerJava6 [main] java.nio.ByteBuffer.cleaner(): available
+2022-03-31 10:58:31,761 DEBUG internal.PlatformDependent [main] -Dio.netty.noPreferDirect: false
+2022-03-31 10:58:31,776 DEBUG internal.PlatformDependent [main] org.jctools-core.MpscChunkedArrayQueue: available
+2022-03-31 10:58:31,792 DEBUG internal.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-03-31 10:58:31,792 DEBUG internal.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-03-31 10:58:31,810 DEBUG ssl.JdkSslContext [main] Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2022-03-31 10:58:31,810 DEBUG ssl.JdkSslContext [main] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2022-03-31 10:58:31,830 DEBUG channel.MultithreadEventLoopGroup [main] -Dio.netty.eventLoopThreads: 16
+2022-03-31 10:58:31,830 DEBUG nio.NioEventLoop [main] -Dio.netty.noKeySetOptimization: false
+2022-03-31 10:58:31,830 DEBUG nio.NioEventLoop [main] -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-03-31 10:58:31,845 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@db44aa2
+2022-03-31 10:58:31,845 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@61a002b1
+2022-03-31 10:58:31,845 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4eeea57d
+2022-03-31 10:58:31,845 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@780ec4a5
+2022-03-31 10:58:31,845 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@e24ddd0
+2022-03-31 10:58:31,845 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6f70f32f
+2022-03-31 10:58:31,845 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@548e76f1
+2022-03-31 10:58:31,845 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5aabbb29
+2022-03-31 10:58:31,845 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@72c927f1
+2022-03-31 10:58:31,845 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1ac85b0c
+2022-03-31 10:58:31,845 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3dd69f5a
+2022-03-31 10:58:31,845 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3aa3193a
+2022-03-31 10:58:31,845 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1ee4730
+2022-03-31 10:58:31,845 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@59a67c3a
+2022-03-31 10:58:31,845 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5003041b
+2022-03-31 10:58:31,845 TRACE nio.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@724bade8
+2022-03-31 10:58:31,861 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.numHeapArenas: 16
+2022-03-31 10:58:31,861 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.numDirectArenas: 16
+2022-03-31 10:58:31,861 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.pageSize: 8192
+2022-03-31 10:58:31,861 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.maxOrder: 11
+2022-03-31 10:58:31,861 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.chunkSize: 16777216
+2022-03-31 10:58:31,861 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.smallCacheSize: 256
+2022-03-31 10:58:31,861 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.normalCacheSize: 64
+2022-03-31 10:58:31,861 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-03-31 10:58:31,861 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-03-31 10:58:31,861 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-03-31 10:58:31,861 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.useCacheForAllThreads: true
+2022-03-31 10:58:31,861 DEBUG buffer.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-03-31 10:58:31,885 DEBUG buffer.ByteBufUtil [main] -Dio.netty.allocator.type: pooled
+2022-03-31 10:58:31,885 DEBUG buffer.ByteBufUtil [main] -Dio.netty.threadLocalDirectBufferSize: 0
+2022-03-31 10:58:31,885 DEBUG buffer.ByteBufUtil [main] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-03-31 10:58:32,599 DEBUG channel.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.processId: 5252 (auto-detected)
+2022-03-31 10:58:32,615 DEBUG util.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
+2022-03-31 10:58:32,615 DEBUG util.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
+2022-03-31 10:58:32,693 DEBUG util.NetUtilInitializations [Forwarding newSession on session null to remote] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-03-31 10:58:32,693 DEBUG util.NetUtil [Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-03-31 10:58:32,778 DEBUG channel.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.machineId: a4:6b:b6:ff:fe:eb:0f:41 (auto-detected)
+2022-03-31 10:58:32,831 DEBUG buffer.AbstractByteBuf [AsyncHttpClient-1-2] -Dio.netty.buffer.checkAccessible: true
+2022-03-31 10:58:32,831 DEBUG buffer.AbstractByteBuf [AsyncHttpClient-1-2] -Dio.netty.buffer.checkBounds: true
+2022-03-31 10:58:32,831 DEBUG util.ResourceLeakDetectorFactory [AsyncHttpClient-1-2] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@293cb17c
+2022-03-31 10:58:32,847 DEBUG util.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-03-31 10:58:32,847 DEBUG util.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.ratio: 8
+2022-03-31 10:58:32,847 DEBUG util.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.chunkSize: 32
+2022-03-31 10:58:32,847 DEBUG util.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.blocking: false
+2022-03-31 10:58:33,388 DEBUG compression.Brotli [AsyncHttpClient-1-2] brotli4j not in the classpath; Brotli support will be unavailable.
+2022-03-31 10:58:33,492 DEBUG internal.ThreadLocalRandom [main] -Dio.netty.initialSeedUniquifier: 0x443c7db2fe436650
+2022-03-31 10:58:38,463 TRACE util.TestLogger [main] Page https://cloud.google.com/ is opened
+2022-03-31 10:58:38,698 TRACE util.TestLogger [main] Search with search query Google Cloud Pricing Calculatorwas executed.
+2022-03-31 10:58:45,892 TRACE util.TestLogger [main] Page Google Cloud Pricing Calculator is opened
+2022-03-31 10:58:46,126 TRACE util.TestLogger [main] Page with calculator is opened
+2022-03-31 10:58:46,130 TRACE util.TestLogger [main] numberOfInstance is 4
+2022-03-31 10:58:46,251 TRACE util.TestLogger [main] purposeOfUse is 
+2022-03-31 10:58:46,334 TRACE util.TestLogger [main] operatingSystem is Free: Debian, CentOS, CoreOS, Ubuntu or BYOL (Bring Your Own License)
+2022-03-31 10:58:46,519 TRACE util.TestLogger [main] virtualMachinesClass is Regular
+2022-03-31 10:58:46,692 TRACE util.TestLogger [main] serie is N1
+2022-03-31 10:58:46,931 TRACE util.TestLogger [main] machineType is n1-standard-8 (vCPUs: 8, RAM: 30GB)
+2022-03-31 10:58:47,134 TRACE util.TestLogger [main] committedUsage is 1 Year
+2022-03-31 10:58:47,373 TRACE util.TestLogger [main] datacenterLocation is Frankfurt (europe-west3)
+2022-03-31 10:58:47,619 TRACE util.TestLogger [main] addGPUType is NVIDIA Tesla P100
+2022-03-31 10:58:47,857 TRACE util.TestLogger [main] numberOfGpu is 1
+2022-03-31 10:58:48,025 TRACE util.TestLogger [main] localSSD is 2x375
+2022-03-31 10:58:48,219 TRACE util.TestLogger [main] Added to estimate.
+2022-03-31 10:58:48,380 TRACE util.TestLogger [main] Compute Engine form filled
+2022-03-31 10:58:48,468 TRACE websocketx.WebSocket08FrameEncoder [AsyncHttpClient-1-4] Encoding WebSocket Frame opCode=8 length=26
+2022-03-31 10:58:55,640 TRACE util.TestLogger [main] Page https://cloud.google.com/ is opened
+2022-03-31 10:58:55,876 TRACE util.TestLogger [main] Search with search query Google Cloud Pricing Calculatorwas executed.
+2022-03-31 10:59:03,152 TRACE util.TestLogger [main] Page Google Cloud Pricing Calculator is opened
+2022-03-31 10:59:03,388 TRACE util.TestLogger [main] Page with calculator is opened
+2022-03-31 10:59:03,389 TRACE util.TestLogger [main] numberOfInstance is 4
+2022-03-31 10:59:03,478 TRACE util.TestLogger [main] purposeOfUse is 
+2022-03-31 10:59:03,540 TRACE util.TestLogger [main] operatingSystem is Free: Debian, CentOS, CoreOS, Ubuntu or BYOL (Bring Your Own License)
+2022-03-31 10:59:03,717 TRACE util.TestLogger [main] virtualMachinesClass is Regular
+2022-03-31 10:59:03,910 TRACE util.TestLogger [main] serie is N1
+2022-03-31 10:59:04,117 TRACE util.TestLogger [main] machineType is n1-standard-8 (vCPUs: 8, RAM: 30GB)
+2022-03-31 10:59:04,322 TRACE util.TestLogger [main] committedUsage is 1 Year
+2022-03-31 10:59:04,538 TRACE util.TestLogger [main] datacenterLocation is Frankfurt (europe-west3)
+2022-03-31 10:59:04,765 TRACE util.TestLogger [main] addGPUType is NVIDIA Tesla P100
+2022-03-31 10:59:05,008 TRACE util.TestLogger [main] numberOfGpu is 1
+2022-03-31 10:59:05,217 TRACE util.TestLogger [main] localSSD is 2x375
+2022-03-31 10:59:05,411 TRACE util.TestLogger [main] Added to estimate.
+2022-03-31 10:59:05,602 TRACE util.TestLogger [main] Compute Engine form filled
+2022-03-31 10:59:05,709 TRACE websocketx.WebSocket08FrameEncoder [AsyncHttpClient-1-7] Encoding WebSocket Frame opCode=8 length=26
+2022-03-31 10:59:12,422 TRACE util.TestLogger [main] Page https://cloud.google.com/ is opened
+2022-03-31 10:59:12,659 TRACE util.TestLogger [main] Search with search query Google Cloud Pricing Calculatorwas executed.
+2022-03-31 10:59:20,024 TRACE util.TestLogger [main] Page Google Cloud Pricing Calculator is opened
+2022-03-31 10:59:20,220 TRACE util.TestLogger [main] Page with calculator is opened
+2022-03-31 10:59:20,220 TRACE util.TestLogger [main] numberOfInstance is 4
+2022-03-31 10:59:20,314 TRACE util.TestLogger [main] purposeOfUse is 
+2022-03-31 10:59:20,387 TRACE util.TestLogger [main] operatingSystem is Free: Debian, CentOS, CoreOS, Ubuntu or BYOL (Bring Your Own License)
+2022-03-31 10:59:20,582 TRACE util.TestLogger [main] virtualMachinesClass is Regular
+2022-03-31 10:59:20,759 TRACE util.TestLogger [main] serie is N1
+2022-03-31 10:59:21,016 TRACE util.TestLogger [main] machineType is n1-standard-8 (vCPUs: 8, RAM: 30GB)
+2022-03-31 10:59:21,239 TRACE util.TestLogger [main] committedUsage is 1 Year
+2022-03-31 10:59:21,466 TRACE util.TestLogger [main] datacenterLocation is Frankfurt (europe-west3)
+2022-03-31 10:59:21,717 TRACE util.TestLogger [main] addGPUType is NVIDIA Tesla P100
+2022-03-31 10:59:21,966 TRACE util.TestLogger [main] numberOfGpu is 1
+2022-03-31 10:59:22,118 TRACE util.TestLogger [main] localSSD is 2x375
+2022-03-31 10:59:22,324 TRACE util.TestLogger [main] Added to estimate.
+2022-03-31 10:59:22,510 TRACE util.TestLogger [main] Compute Engine form filled
+2022-03-31 10:59:22,588 TRACE websocketx.WebSocket08FrameEncoder [AsyncHttpClient-1-10] Encoding WebSocket Frame opCode=8 length=26
+2022-03-31 10:59:30,003 TRACE util.TestLogger [main] Page https://cloud.google.com/ is opened
+2022-03-31 10:59:30,196 TRACE util.TestLogger [main] Search with search query Google Cloud Pricing Calculatorwas executed.
+2022-03-31 10:59:36,922 TRACE util.TestLogger [main] Page Google Cloud Pricing Calculator is opened
+2022-03-31 10:59:37,115 TRACE util.TestLogger [main] Page with calculator is opened
+2022-03-31 10:59:37,116 TRACE util.TestLogger [main] numberOfInstance is 4
+2022-03-31 10:59:37,199 TRACE util.TestLogger [main] purposeOfUse is 
+2022-03-31 10:59:37,263 TRACE util.TestLogger [main] operatingSystem is Free: Debian, CentOS, CoreOS, Ubuntu or BYOL (Bring Your Own License)
+2022-03-31 10:59:37,452 TRACE util.TestLogger [main] virtualMachinesClass is Regular
+2022-03-31 10:59:37,641 TRACE util.TestLogger [main] serie is N1
+2022-03-31 10:59:38,329 TRACE util.TestLogger [main] machineType is n1-standard-8 (vCPUs: 8, RAM: 30GB)
+2022-03-31 10:59:38,506 TRACE util.TestLogger [main] committedUsage is 1 Year
+2022-03-31 10:59:39,167 TRACE util.TestLogger [main] datacenterLocation is Frankfurt (europe-west3)
+2022-03-31 10:59:39,348 TRACE util.TestLogger [main] addGPUType is NVIDIA Tesla P100
+2022-03-31 10:59:40,045 TRACE util.TestLogger [main] numberOfGpu is 1
+2022-03-31 10:59:40,209 TRACE util.TestLogger [main] localSSD is 2x375
+2022-03-31 10:59:40,840 TRACE util.TestLogger [main] Added to estimate.
+2022-03-31 10:59:41,001 TRACE util.TestLogger [main] Compute Engine form filled
+2022-03-31 10:59:41,088 TRACE websocketx.WebSocket08FrameEncoder [AsyncHttpClient-1-13] Encoding WebSocket Frame opCode=8 length=26
+2022-03-31 10:59:48,904 TRACE util.TestLogger [main] Page https://cloud.google.com/ is opened
+2022-03-31 10:59:49,195 TRACE util.TestLogger [main] Search with search query Google Cloud Pricing Calculatorwas executed.
+2022-03-31 10:59:57,037 TRACE util.TestLogger [main] Page Google Cloud Pricing Calculator is opened
+2022-03-31 10:59:57,328 TRACE util.TestLogger [main] Page with calculator is opened
+2022-03-31 10:59:57,329 TRACE util.TestLogger [main] numberOfInstance is 4
+2022-03-31 10:59:57,422 TRACE util.TestLogger [main] purposeOfUse is 
+2022-03-31 10:59:57,497 TRACE util.TestLogger [main] operatingSystem is Free: Debian, CentOS, CoreOS, Ubuntu or BYOL (Bring Your Own License)
+2022-03-31 10:59:58,229 TRACE util.TestLogger [main] virtualMachinesClass is Regular
+2022-03-31 10:59:58,400 TRACE util.TestLogger [main] serie is N1
+2022-03-31 10:59:59,167 TRACE util.TestLogger [main] machineType is n1-standard-8 (vCPUs: 8, RAM: 30GB)
+2022-03-31 10:59:59,351 TRACE util.TestLogger [main] committedUsage is 1 Year
+2022-03-31 11:00:00,040 TRACE util.TestLogger [main] datacenterLocation is Frankfurt (europe-west3)
+2022-03-31 11:00:00,229 TRACE util.TestLogger [main] addGPUType is NVIDIA Tesla P100
+2022-03-31 11:00:00,465 TRACE util.TestLogger [main] numberOfGpu is 1
+2022-03-31 11:00:00,630 TRACE util.TestLogger [main] localSSD is 2x375
+2022-03-31 11:00:01,299 TRACE util.TestLogger [main] Added to estimate.
+2022-03-31 11:00:01,456 TRACE util.TestLogger [main] Compute Engine form filled
+2022-03-31 11:00:01,536 TRACE websocketx.WebSocket08FrameEncoder [AsyncHttpClient-1-16] Encoding WebSocket Frame opCode=8 length=26
+2022-03-31 11:00:07,790 TRACE util.TestLogger [main] Page https://cloud.google.com/ is opened
+2022-03-31 11:00:08,013 TRACE util.TestLogger [main] Search with search query Google Cloud Pricing Calculatorwas executed.
+2022-03-31 11:00:15,545 TRACE util.TestLogger [main] Page Google Cloud Pricing Calculator is opened
+2022-03-31 11:00:15,728 TRACE util.TestLogger [main] Page with calculator is opened
+2022-03-31 11:00:15,729 TRACE util.TestLogger [main] numberOfInstance is 4
+2022-03-31 11:00:15,810 TRACE util.TestLogger [main] purposeOfUse is 
+2022-03-31 11:00:15,903 TRACE util.TestLogger [main] operatingSystem is Free: Debian, CentOS, CoreOS, Ubuntu or BYOL (Bring Your Own License)
+2022-03-31 11:00:16,093 TRACE util.TestLogger [main] virtualMachinesClass is Regular
+2022-03-31 11:00:16,259 TRACE util.TestLogger [main] serie is N1
+2022-03-31 11:00:16,984 TRACE util.TestLogger [main] machineType is n1-standard-8 (vCPUs: 8, RAM: 30GB)
+2022-03-31 11:00:17,164 TRACE util.TestLogger [main] committedUsage is 1 Year
+2022-03-31 11:00:17,834 TRACE util.TestLogger [main] datacenterLocation is Frankfurt (europe-west3)
+2022-03-31 11:00:18,029 TRACE util.TestLogger [main] addGPUType is NVIDIA Tesla P100
+2022-03-31 11:00:18,256 TRACE util.TestLogger [main] numberOfGpu is 1
+2022-03-31 11:00:18,429 TRACE util.TestLogger [main] localSSD is 2x375
+2022-03-31 11:00:19,068 TRACE util.TestLogger [main] Added to estimate.
+2022-03-31 11:00:19,201 TRACE util.TestLogger [main] Compute Engine form filled
+2022-03-31 11:00:19,268 TRACE websocketx.WebSocket08FrameEncoder [AsyncHttpClient-1-3] Encoding WebSocket Frame opCode=8 length=26

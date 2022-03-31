@@ -2,84 +2,84 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke" duration-ms="103255" started-at="2022-03-30T18:27:57 EEST" finished-at="2022-03-30T18:29:40 EEST">
+  <suite name="Smoke" duration-ms="109529" started-at="2022-03-31T10:58:30 EEST" finished-at="2022-03-31T11:00:20 EEST">
     <groups>
     </groups>
-    <test name="CheckEstimatedCostInComputeEnginePage" duration-ms="17075" started-at="2022-03-30T18:27:57 EEST" finished-at="2022-03-30T18:28:14 EEST">
+    <test name="CheckEstimatedCostInComputeEnginePage" duration-ms="19183" started-at="2022-03-31T10:58:30 EEST" finished-at="2022-03-31T10:58:49 EEST">
       <class name="com.epam.automation.test.EstimatedCostInComputeEngineTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.test.EstimatedCostInComputeEngineTest@3712b94]" name="setUp" is-config="true" duration-ms="2201" started-at="2022-03-30T18:27:57 EEST" finished-at="2022-03-30T18:27:59 EEST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.test.EstimatedCostInComputeEngineTest@3712b94]" name="setUp" is-config="true" duration-ms="3127" started-at="2022-03-31T10:58:30 EEST" finished-at="2022-03-31T10:58:33 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="compareOfCalculationsByProgramAndManually()[pri:0, instance:com.epam.automation.test.EstimatedCostInComputeEngineTest@3712b94]" name="compareOfCalculationsByProgramAndManually" duration-ms="14062" started-at="2022-03-30T18:27:59 EEST" description="Check that the rental amount coincides with the manual calculation" finished-at="2022-03-30T18:28:13 EEST">
+        <test-method status="PASS" signature="compareOfCalculationsByProgramAndManually()[pri:0, instance:com.epam.automation.test.EstimatedCostInComputeEngineTest@3712b94]" name="compareOfCalculationsByProgramAndManually" duration-ms="14805" started-at="2022-03-31T10:58:33 EEST" description="Check that the rental amount coincides with the manual calculation" finished-at="2022-03-31T10:58:48 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- compareOfCalculationsByProgramAndManually -->
-        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.automation.test.EstimatedCostInComputeEngineTest@3712b94]" name="stopBrowser" is-config="true" duration-ms="780" started-at="2022-03-30T18:28:13 EEST" finished-at="2022-03-30T18:28:14 EEST">
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.automation.test.EstimatedCostInComputeEngineTest@3712b94]" name="stopBrowser" is-config="true" duration-ms="1227" started-at="2022-03-31T10:58:48 EEST" finished-at="2022-03-31T10:58:49 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopBrowser -->
       </class> <!-- com.epam.automation.test.EstimatedCostInComputeEngineTest -->
     </test> <!-- CheckEstimatedCostInComputeEnginePage -->
-    <test name="CheckEstimatedParametersInComputeEnginePage" duration-ms="86170" started-at="2022-03-30T18:28:14 EEST" finished-at="2022-03-30T18:29:40 EEST">
+    <test name="CheckEstimatedParametersInComputeEnginePage" duration-ms="90338" started-at="2022-03-31T10:58:49 EEST" finished-at="2022-03-31T11:00:20 EEST">
       <class name="com.epam.automation.test.EstimatedParametersTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="setUp" is-config="true" duration-ms="1299" started-at="2022-03-30T18:28:14 EEST" finished-at="2022-03-30T18:28:15 EEST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="setUp" is-config="true" duration-ms="1220" started-at="2022-03-31T10:58:49 EEST" finished-at="2022-03-31T10:58:50 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testVerifyCommitmentTerm()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="testVerifyCommitmentTerm" duration-ms="16148" started-at="2022-03-30T18:28:15 EEST" description="Check Commitment Term" finished-at="2022-03-30T18:28:31 EEST">
+        <test-method status="PASS" signature="testVerifyCommitmentTerm()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="testVerifyCommitmentTerm" duration-ms="14788" started-at="2022-03-31T10:58:50 EEST" description="Check Commitment Term" finished-at="2022-03-31T10:59:05 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyCommitmentTerm -->
-        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="stopBrowser" is-config="true" duration-ms="1133" started-at="2022-03-30T18:28:31 EEST" finished-at="2022-03-30T18:28:32 EEST">
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="stopBrowser" is-config="true" duration-ms="1207" started-at="2022-03-31T10:59:05 EEST" finished-at="2022-03-31T10:59:06 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopBrowser -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="setUp" is-config="true" duration-ms="1248" started-at="2022-03-30T18:28:32 EEST" finished-at="2022-03-30T18:28:34 EEST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="setUp" is-config="true" duration-ms="1172" started-at="2022-03-31T10:59:06 EEST" finished-at="2022-03-31T10:59:08 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testVerifyInstanceType()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="testVerifyInstanceType" duration-ms="13237" started-at="2022-03-30T18:28:34 EEST" description="Check Instance type" finished-at="2022-03-30T18:28:47 EEST">
+        <test-method status="PASS" signature="testVerifyInstanceType()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="testVerifyInstanceType" duration-ms="14500" started-at="2022-03-31T10:59:08 EEST" description="Check Instance type" finished-at="2022-03-31T10:59:22 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyInstanceType -->
-        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="stopBrowser" is-config="true" duration-ms="1064" started-at="2022-03-30T18:28:47 EEST" finished-at="2022-03-30T18:28:48 EEST">
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="stopBrowser" is-config="true" duration-ms="1288" started-at="2022-03-31T10:59:22 EEST" finished-at="2022-03-31T10:59:23 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopBrowser -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="setUp" is-config="true" duration-ms="1223" started-at="2022-03-30T18:28:48 EEST" finished-at="2022-03-30T18:28:49 EEST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="setUp" is-config="true" duration-ms="1225" started-at="2022-03-31T10:59:23 EEST" finished-at="2022-03-31T10:59:25 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testVerifyLocalSSD()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="testVerifyLocalSSD" duration-ms="14582" started-at="2022-03-30T18:28:49 EEST" description="Check LocalSSD" finished-at="2022-03-30T18:29:04 EEST">
+        <test-method status="PASS" signature="testVerifyLocalSSD()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="testVerifyLocalSSD" duration-ms="15987" started-at="2022-03-31T10:59:25 EEST" description="Check LocalSSD" finished-at="2022-03-31T10:59:41 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyLocalSSD -->
-        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="stopBrowser" is-config="true" duration-ms="803" started-at="2022-03-30T18:29:04 EEST" finished-at="2022-03-30T18:29:04 EEST">
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="stopBrowser" is-config="true" duration-ms="877" started-at="2022-03-31T10:59:41 EEST" finished-at="2022-03-31T10:59:41 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopBrowser -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="setUp" is-config="true" duration-ms="1203" started-at="2022-03-30T18:29:04 EEST" finished-at="2022-03-30T18:29:06 EEST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="setUp" is-config="true" duration-ms="1350" started-at="2022-03-31T10:59:41 EEST" finished-at="2022-03-31T10:59:43 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testVerifyRegion()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="testVerifyRegion" duration-ms="16724" started-at="2022-03-30T18:29:06 EEST" description="Check Region" finished-at="2022-03-30T18:29:22 EEST">
+        <test-method status="PASS" signature="testVerifyRegion()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="testVerifyRegion" duration-ms="18220" started-at="2022-03-31T10:59:43 EEST" description="Check Region" finished-at="2022-03-31T11:00:01 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyRegion -->
-        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="stopBrowser" is-config="true" duration-ms="751" started-at="2022-03-30T18:29:22 EEST" finished-at="2022-03-30T18:29:23 EEST">
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="stopBrowser" is-config="true" duration-ms="855" started-at="2022-03-31T11:00:01 EEST" finished-at="2022-03-31T11:00:02 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopBrowser -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="setUp" is-config="true" duration-ms="1166" started-at="2022-03-30T18:29:23 EEST" finished-at="2022-03-30T18:29:24 EEST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="setUp" is-config="true" duration-ms="1204" started-at="2022-03-31T11:00:02 EEST" finished-at="2022-03-31T11:00:03 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testVerifyVMClassField()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="testVerifyVMClassField" duration-ms="14810" started-at="2022-03-30T18:29:24 EEST" description="Check VmClass" finished-at="2022-03-30T18:29:39 EEST">
+        <test-method status="PASS" signature="testVerifyVMClassField()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="testVerifyVMClassField" duration-ms="15674" started-at="2022-03-31T11:00:03 EEST" description="Check VmClass" finished-at="2022-03-31T11:00:19 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyVMClassField -->
-        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="stopBrowser" is-config="true" duration-ms="773" started-at="2022-03-30T18:29:39 EEST" finished-at="2022-03-30T18:29:40 EEST">
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.automation.test.EstimatedParametersTest@1f97cf0d]" name="stopBrowser" is-config="true" duration-ms="770" started-at="2022-03-31T11:00:19 EEST" finished-at="2022-03-31T11:00:20 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopBrowser -->
