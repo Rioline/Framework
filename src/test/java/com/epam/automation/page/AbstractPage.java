@@ -1,6 +1,6 @@
 package com.epam.automation.page;
 
-import com.epam.automation.helper.HelperInitializer;
+import com.epam.automation.util.helper.HelperInitializer;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 

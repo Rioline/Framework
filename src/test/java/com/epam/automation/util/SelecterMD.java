@@ -1,7 +1,7 @@
 package com.epam.automation.util;
 
-import com.epam.automation.helper.JSExecutor;
-import com.epam.automation.helper.Waiter;
+import com.epam.automation.util.helper.JSExecutor;
+import com.epam.automation.util.helper.Waiter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 

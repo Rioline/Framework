@@ -1,6 +1,6 @@
 package com.epam.automation.page.googlecloud;
 
-import com.epam.automation.helper.Switcher;
+import com.epam.automation.util.helper.Switcher;
 import com.epam.automation.page.AbstractPage;
 import com.epam.automation.util.TestLogger;
 import org.openqa.selenium.WebDriver;

@@ -1,4 +1,4 @@
-package com.epam.automation.helper;
+package com.epam.automation.util.helper;
 
 import org.openqa.selenium.WebDriver;
 

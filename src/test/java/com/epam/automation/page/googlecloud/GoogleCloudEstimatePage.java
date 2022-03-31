@@ -1,7 +1,7 @@
 package com.epam.automation.page.googlecloud;
 
-import com.epam.automation.helper.JSExecutor;
-import com.epam.automation.helper.Switcher;
+import com.epam.automation.util.helper.JSExecutor;
+import com.epam.automation.util.helper.Switcher;
 import com.epam.automation.page.AbstractPage;
 import com.epam.automation.util.CostFormatter;
 import com.epam.automation.util.TestLogger;
